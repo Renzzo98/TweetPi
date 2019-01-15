@@ -255,7 +255,6 @@ def decisionTree(choice):
 
 
 def main():
-	initNewList() #Run this only the first time
 	welcomeScreen()
 	usrChoice = mainMenu()
 	decisionTree(usrChoice)
